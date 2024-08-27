@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "34e21536-7d15-46bb-ac69-d54ce38164cf",
+		"name": "Educase",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34837905"
+	},
+	"item": [
+		{
+			"name": "Add School:",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Antar Bharti High School\",\r\n    \"address\": \"Kurduwadi, Solapur\",\r\n    \"latitude\": 52.7128,\r\n    \"longitude\": -63.0060\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:10000/api/addSchool",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "10000",
+					"path": [
+						"api",
+						"addSchool"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Schools",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:10000/api/listSchools?latitude=50.7128&longitude=-60.0060",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "10000",
+					"path": [
+						"api",
+						"listSchools"
+					],
+					"query": [
+						{
+							"key": "latitude",
+							"value": "50.7128"
+						},
+						{
+							"key": "longitude",
+							"value": "-60.0060"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
