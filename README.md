@@ -11,7 +11,7 @@ This project is a Node.js and Express.js API that allows for the management of s
 A Postman collection is provided to easily test the APIs. You can import the collection by downloading it [here](assets/Educase.postman_collection.json)
 
 ## Hosting
-The API is hosted on Render. You can access the live API at: https://educase-assignment-j3kq.onrender.com
+The API is hosted on Render. You can access the live API at: [https://educase-assignment-j3kq.onrender.com](https://educase-assignment-j3kq.onrender.com/api/listSchools?latitude=50.7128&longitude=-60.0060)
 
 
 ## Technologies Used
