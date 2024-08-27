@@ -95,7 +95,7 @@ node server.js
 - **Example Request**:
 
     ```url
-   https://educase-assignment-j3kq.onrender.com/api/listSchools?latitude=40.712776&longitude=-74.005974
+   https://educase-assignment-j3kq.onrender.com/api/listSchools?latitude=50.7128&longitude=-60.0060
     ```
 
 - **Response**:
