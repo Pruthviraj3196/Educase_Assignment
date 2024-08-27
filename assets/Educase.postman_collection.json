@@ -21,7 +21,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:10000/api/addSchool",
+					"raw": "https://educase-assignment-j3kq.onrender.com/api/addSchool",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -41,7 +41,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:10000/api/listSchools?latitude=50.7128&longitude=-60.0060",
+					"raw": "https://educase-assignment-j3kq.onrender.com/api/listSchools?latitude=50.7128&longitude=-60.0060",
 					"protocol": "http",
 					"host": [
 						"localhost"
